@@ -1,0 +1,10 @@
+{
+  "system_prompt": "You are a multimodal feature alignment text encoder. Transform the following historical clothing knowledge graph triplets into descriptive contextual prompts.",
+  "templates": {
+    "Han & Tang": "In the historical context of Han & Tang culture, the costume features {head_entity} which {relation} {tail_entity}. The geometric topology preserves dynasty aesthetics.",
+    "Wafu Traditional": "Representing Wafu Traditional culture, the core garment {head_entity} {relation} {tail_entity}. This reflects regional traditional clothing structures.",
+    "Victorian": "Under the Victorian stylistic paradigm, the visual structure {head_entity} strictly {relation} {tail_entity}, introducing exaggerated physical constraints.",
+    "Nomadic": "Driven by Nomadic lifestyle motifs, the attire adopts {head_entity} that {relation} {tail_entity}, focusing on irregular cuts and tribal elements.",
+    "Cyber/Wasteland": "Within the Cyber/Wasteland artistic genre, the design utilizes {head_entity} which {relation} {tail_entity}, demonstrating futuristic techwear integration."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "graph_metadata": {
+    "version": "1.0.0",
+    "nodes_count": 8547,
+    "attributes_count": 3292,
+    "edges_count": 38416,
+    "description": "External Structured Semantic Prior Graph for Stylized Costume Classification"
+  },
+  "schema_relations": [
+    {"type": "belongs to", "directionality": "Directional", "acyclic_constraint": true},
+    {"type": "features structure", "directionality": "Directional", "acyclic_constraint": true},
+    {"type": "restricts", "directionality": "Directional", "acyclic_constraint": true},
+    {"type": "inherited from", "directionality": "Directional", "acyclic_constraint": true},
+    {"type": "distinguished from", "directionality": "Directional", "acyclic_constraint": true},
+    {"type": "prevalent in", "directionality": "Directional", "acyclic_constraint": true},
+    {"type": "co-occurs with", "directionality": "Symmetric", "acyclic_constraint": false}
+  ],
+  "triplets_sample": [
+    {
+      "head_entity": "Qixiong Ruqun",
+      "relation": "belongs to",
+      "tail_entity": "Tang Dynasty",
+      "target_style_domain": "Han & Tang"
+    },
+    {
+      "head_entity": "Corset",
+      "relation": "restricts",
+      "tail_entity": "Waist Topology",
+      "target_style_domain": "Victorian"
+    },
+    {
+      "head_entity": "Hakama",
+      "relation": "features element",
+      "tail_entity": "Pleated Skirt",
+      "target_style_domain": "Wafu Traditional"
+    }
+  ]
+}
